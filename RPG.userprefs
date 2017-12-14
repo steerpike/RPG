@@ -1,0 +1,22 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\Items\CreateNewWeapon.cs">
+    <Files>
+      <File FileName="Assets\_Scripts\Character Classes\BaseCharacterClass.cs" Line="20" Column="2" />
+      <File FileName="Assets\_Scripts\Character Classes\BaseWarriorClass.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Scripts\Character Classes\BaseMageClass.cs" Line="1" Column="1" />
+      <File FileName="Assets\TestGUI.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Scripts\Items\BaseItem.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Scripts\Items\BaseStatItem.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Scripts\Items\BaseWeapon.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Scripts\Items\BaseEquipment.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Scripts\Items\BasePotion.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Scripts\Items\BaseScroll.cs" Line="10" Column="19" />
+      <File FileName="Assets\_Scripts\Items\CreateNewWeapon.cs" Line="20" Column="39" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
