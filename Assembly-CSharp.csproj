@@ -47,9 +47,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\TestGUI.cs" />
+     <Compile Include="Assets\_Scripts\BasePlayer\BasePlayer.cs" />
      <Compile Include="Assets\_Scripts\Character Classes\BaseCharacterClass.cs" />
      <Compile Include="Assets\_Scripts\Character Classes\BaseMageClass.cs" />
      <Compile Include="Assets\_Scripts\Character Classes\BaseWarriorClass.cs" />
+     <Compile Include="Assets\_Scripts\Combat\CombatStateMachine.cs" />
      <Compile Include="Assets\_Scripts\Items\BaseEquipment.cs" />
      <Compile Include="Assets\_Scripts\Items\BaseItem.cs" />
      <Compile Include="Assets\_Scripts\Items\BasePotion.cs" />
