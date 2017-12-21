@@ -1,11 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\BasePlayer\BasePlayer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\PlayerMovement\PlayerMovement.cs">
     <Files>
-      <File FileName="Assets\_Scripts\Items\BaseItem.cs" Line="1" Column="1" />
-      <File FileName="Assets\_Scripts\Items\BaseEquipment.cs" Line="1" Column="1" />
-      <File FileName="Assets\_Scripts\Combat\CombatStateMachine.cs" Line="23" Column="27" />
-      <File FileName="Assets\_Scripts\BasePlayer\BasePlayer.cs" Line="16" Column="28" />
+      <File FileName="Assets\_Scripts\SavingAndLoading\SaveInformation.cs" Line="14" Column="41" />
+      <File FileName="Assets\_Scripts\TestScripts.cs" Line="11" Column="57" />
+      <File FileName="Assets\_Scripts\SavingAndLoading\PPSerialization.cs" Line="22" Column="51" />
+      <File FileName="Assets\_Scripts\PlayerMovement\PlayerMovement.cs" Line="13" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

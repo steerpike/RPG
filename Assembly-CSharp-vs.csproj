@@ -52,6 +52,8 @@
      <Compile Include="Assets\_Scripts\Character Classes\BaseMageClass.cs" />
      <Compile Include="Assets\_Scripts\Character Classes\BaseWarriorClass.cs" />
      <Compile Include="Assets\_Scripts\Combat\CombatStateMachine.cs" />
+     <Compile Include="Assets\_Scripts\Create Character\CreateNewCharacter.cs" />
+     <Compile Include="Assets\_Scripts\GameInformation\GameInformation.cs" />
      <Compile Include="Assets\_Scripts\Items\BaseEquipment.cs" />
      <Compile Include="Assets\_Scripts\Items\BaseItem.cs" />
      <Compile Include="Assets\_Scripts\Items\BasePotion.cs" />
@@ -60,6 +62,11 @@
      <Compile Include="Assets\_Scripts\Items\BaseWeapon.cs" />
      <Compile Include="Assets\_Scripts\Items\CreateNewEquipment.cs" />
      <Compile Include="Assets\_Scripts\Items\CreateNewWeapon.cs" />
+     <Compile Include="Assets\_Scripts\PlayerMovement\PlayerMovement.cs" />
+     <Compile Include="Assets\_Scripts\SavingAndLoading\LoadInformation.cs" />
+     <Compile Include="Assets\_Scripts\SavingAndLoading\PPSerialization.cs" />
+     <Compile Include="Assets\_Scripts\SavingAndLoading\SaveInformation.cs" />
+     <Compile Include="Assets\_Scripts\TestScripts.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity4.7/Editor/Data/UnityExtensions/Unity/GUISystem/4.7.2/Standalone/UnityEngine.UI.dll</HintPath>
  </Reference>

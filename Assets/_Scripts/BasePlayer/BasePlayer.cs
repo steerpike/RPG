@@ -10,11 +10,13 @@ public class BasePlayer {
 	private int intelligence;
 	private int faith;
 	private int agility;
-
+	/*
 	public string PlayerName {
 		get{ return playerName; }
 		set{ playerName = value; }
-	}
+	}*/
+	public string PlayerName{ get; set;}
+
 	public int PlayerLevel {
 		get{ return playerLevel; }
 		set{ playerLevel = value; }
