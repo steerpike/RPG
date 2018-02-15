@@ -14,4 +14,8 @@ public class GameInformation : MonoBehaviour {
 	public static int PlayerIntelligence{ get; set;}
 	public static int PlayerFaith{ get; set;}
 	public static int PlayerAgility{ get; set;}
+	public static int PlayerResistance{ get; set;}
+	public static int PlayerGold{ get; set;}
+	public static int CurrentXP{ get; set;}
+	public static int RequiredXP{ get; set;}
 }

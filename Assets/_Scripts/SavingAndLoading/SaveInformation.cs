@@ -10,6 +10,8 @@ public class SaveInformation {
 		PlayerPrefs.SetInt ("PLAYERINTELLIGENCE", GameInformation.PlayerIntelligence);
 		PlayerPrefs.SetInt ("PLAYERFAITH", GameInformation.PlayerFaith);
 		PlayerPrefs.SetInt ("PLAYERAGILITY", GameInformation.PlayerAgility);
+		PlayerPrefs.SetInt ("PLAYERRESISTANCE", GameInformation.PlayerResistance);
+		PlayerPrefs.SetInt ("PLAYERGOLD", GameInformation.PlayerGold);
 		if (GameInformation.EquipmentOne != null) {
 			PPSerialisation.Save ("EQUIPMENTITEM1", GameInformation.EquipmentOne);
 		}

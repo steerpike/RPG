@@ -10,5 +10,6 @@ public class BaseMageClass : BaseCharacterClass {
 		Intelligence = 15;
 		Faith = 8;
 		Agility = 8;
+		Resistance = 3;
 	}
 }

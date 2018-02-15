@@ -26,16 +26,13 @@ public class CreateNewCharacter : MonoBehaviour {
 			} else if(isWarriorClass) {
 				newPlayer.PlayerClass = new BaseWarriorClass();
 			}
-			newPlayer.PlayerLevel = 1;
-			newPlayer.PlayerName = playerName;
-			newPlayer.Strength = newPlayer.PlayerClass.Strength;
-			newPlayer.Intelligence = newPlayer.PlayerClass.Intelligence;
-			newPlayer.Faith = newPlayer.PlayerClass.Faith;
-			newPlayer.Agility = newPlayer.PlayerClass.Agility;
+			CreateNewPlayer();
 			Debug.Log("Player name: " + newPlayer.PlayerName);
 			Debug.Log("Player class: " + newPlayer.PlayerClass.CharacterClassName);
 			Debug.Log("Player level: " + newPlayer.PlayerLevel);
 			Debug.Log("Player strength: " + newPlayer.Strength);
+			Debug.Log("Player gold: " + newPlayer.Gold);
+			Debug.Log("Player resistance: " + newPlayer.Resistance);
 			StoreNewPlayerInformation();
 			SaveInformation.SaveAllInformation();
 		}
@@ -50,5 +47,17 @@ public class CreateNewCharacter : MonoBehaviour {
 		GameInformation.PlayerIntelligence = newPlayer.Intelligence;
 		GameInformation.PlayerFaith = newPlayer.Faith;
 		GameInformation.PlayerAgility = newPlayer.Agility;
+		GameInformation.PlayerResistance = newPlayer.Resistance;
+		GameInformation.PlayerGold = newPlayer.Gold;
+	}
+	private void CreateNewPlayer() {
+		newPlayer.PlayerLevel = 1;
+		newPlayer.PlayerName = playerName;
+		newPlayer.Strength = newPlayer.PlayerClass.Strength;
+		newPlayer.Intelligence = newPlayer.PlayerClass.Intelligence;
+		newPlayer.Faith = newPlayer.PlayerClass.Faith;
+		newPlayer.Agility = newPlayer.PlayerClass.Agility;
+		newPlayer.Resistance = newPlayer.PlayerClass.Resistance;
+		newPlayer.Gold = 10;
 	}
 }

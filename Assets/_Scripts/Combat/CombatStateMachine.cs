@@ -3,6 +3,7 @@ using System.Collections;
 
 public class CombatStateMachine : MonoBehaviour {
 
+	private bool hasAddedXP = false;
 	public enum BattleStates {
 		START,
 		PLAYERCHOICE,
@@ -29,6 +30,10 @@ public class CombatStateMachine : MonoBehaviour {
 		case BattleStates.LOSE:
 			break;
 		case BattleStates.WIN:
+			if(!hasAddedXP) {
+				IncreaseExperience.AddExperience();
+				hasAddedXP = true;
+			}
 			break;
 		}
 	}

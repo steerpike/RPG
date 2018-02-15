@@ -53,7 +53,10 @@
      <Compile Include="Assets\_Scripts\Character Classes\BaseWarriorClass.cs" />
      <Compile Include="Assets\_Scripts\Combat\CombatStateMachine.cs" />
      <Compile Include="Assets\_Scripts\Create Character\CreateNewCharacter.cs" />
+     <Compile Include="Assets\_Scripts\CreateAPlayerGUI\CreateAPlayerGUI.cs" />
+     <Compile Include="Assets\_Scripts\CreateAPlayerGUI\DisplayCreatePlayerFunctions.cs" />
      <Compile Include="Assets\_Scripts\GameInformation\GameInformation.cs" />
+     <Compile Include="Assets\_Scripts\IncreaseExperience.cs" />
      <Compile Include="Assets\_Scripts\Items\BaseEquipment.cs" />
      <Compile Include="Assets\_Scripts\Items\BaseItem.cs" />
      <Compile Include="Assets\_Scripts\Items\BasePotion.cs" />
@@ -62,6 +65,8 @@
      <Compile Include="Assets\_Scripts\Items\BaseWeapon.cs" />
      <Compile Include="Assets\_Scripts\Items\CreateNewEquipment.cs" />
      <Compile Include="Assets\_Scripts\Items\CreateNewWeapon.cs" />
+     <Compile Include="Assets\_Scripts\LevelUp.cs" />
+     <Compile Include="Assets\_Scripts\PlayerMovement\PlayerController.cs" />
      <Compile Include="Assets\_Scripts\PlayerMovement\PlayerMovement.cs" />
      <Compile Include="Assets\_Scripts\SavingAndLoading\LoadInformation.cs" />
      <Compile Include="Assets\_Scripts\SavingAndLoading\PPSerialization.cs" />

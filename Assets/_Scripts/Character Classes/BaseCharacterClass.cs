@@ -8,6 +8,7 @@ public class BaseCharacterClass  {
 	private int intelligence;
 	private int faith;
 	private int agility;
+	private int resistance;
 
 	public string CharacterClassName {
 		get{return characterClassName;}
@@ -32,5 +33,9 @@ public class BaseCharacterClass  {
 	public int Agility {
 		get{return agility;}
 		set{agility = value;}
+	}
+	public int Resistance {
+		get{return resistance;}
+		set{resistance = value;}
 	}
 }

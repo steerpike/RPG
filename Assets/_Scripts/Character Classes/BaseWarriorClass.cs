@@ -10,5 +10,6 @@ public class BaseWarriorClass : BaseCharacterClass {
 		Intelligence = 5;
 		Faith = 5;
 		Agility = 10;
+		Resistance = 8;
 	}
 }
